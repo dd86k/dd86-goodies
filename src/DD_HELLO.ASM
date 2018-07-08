@@ -1,7 +1,8 @@
 ;======================================
 ; DD_H.ASM
 ; Hello world example
-; nasm DD_H.ASM -fbin -oDD_H.COM
+; Compile: nasm DD_H.ASM -fbin -oDD_H.COM
+; Author: dd86k
 ;======================================
 
 bits 16
