@@ -10,6 +10,8 @@ The ASM files are compiled with the NASM assembler, be sure to use the binary fo
 
 The C files need to be compiled with an ANSI C or C89 compliant compiler, such as the Borland Turbo 2.0 C compiler or GCC using a DOS library.
 
+To make a COM file using C, you can use Turbo C's /T switch: `tcc -mt -lt example.c`
+
 It is recommended to use the 8086 instruction set.
 
 License
