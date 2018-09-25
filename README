@@ -1,16 +1,20 @@
 DD-DOS Goodies
 ===================
 
-This repo includes goodies, such as tests, to run either under DD-DOS, DOSBox, or even MS-DOS.
+This repo includes various examples and goodies to run either under DD-DOS,
+DOSBox, or even MS-DOS.
 
 Compiling
 ===================
 
-The ASM files are compiled with the NASM assembler, be sure to use the binary format when compiling as COM executables.
+The ASM files are compiled with the NASM assembler, be sure to use the binary
+format when compiling as COM executables.
 
-The C files need to be compiled with an ANSI C or C89 compliant compiler, such as the Borland Turbo 2.0 C compiler or GCC using a DOS library.
+The C files need to be compiled with an ANSI C or C89 compliant compiler, such
+as the Borland Turbo 2.0 C compiler or GCC using a DOS library.
 
-To make a COM file using C, you can use Turbo C's /T switch: `tcc -mt -lt example.c`
+To make a COM file using C, you can use Turbo C's /T switch:
+	tcc -mt -lt example.c
 
 It is recommended to use the 8086 instruction set.
 

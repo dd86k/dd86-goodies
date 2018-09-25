@@ -1,19 +1,19 @@
 ;======================================
-; DD_H.ASM
+; HELLO.ASM
 ; Hello world example
-; Compile: nasm DD_H.ASM -fbin -oDD_H.COM
+; Compile: nasm HELLO.ASM -fbin -oHELLO.COM
 ; Author: dd86k
 ;======================================
 
-bits 16
-cpu 8086
+BITS 16
+CPU 8086
 
-org 100h
+ORG 100h
 
 mov dx, s1
 mov ah, 9		; output string
 int 21h
-mov ah, 4Ch		; exit
+mov ah, 4Ch		; exit, recommended by Microsoft
 int 21h
 
 ; DATA
