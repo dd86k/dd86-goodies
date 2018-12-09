@@ -16,7 +16,7 @@ as the Borland Turbo 2.0 C compiler or GCC using a DOS library.
 To make a COM file using C, you can use Turbo C's /T switch:
 	tcc -mt -lt example.c
 
-It is recommended to use the 8086 instruction set.
+It is recommended to use the 8086 instruction set at the moment.
 
 License
 ===================
